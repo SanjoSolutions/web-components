@@ -2,9 +2,14 @@ import { createTemplate } from '../createTemplate.js'
 
 const template = createTemplate(`
   <template>
-    <div style="width: 2rem; height: 2rem; background-color: red;">
-  
-    </div>
+    <style>
+      .box {
+        width: 2rem;
+        height: 2rem;
+        background-color: red;
+      }  
+    </style>
+    <div class="box"></div>
   </template>
 `)
 
