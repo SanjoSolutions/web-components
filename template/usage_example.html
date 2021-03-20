@@ -1,3 +1,7 @@
-<script type="module" src="template.js"></script>
+<script type="module">
+  import { CustomHTMLElement } from './CustomHTMLElement.js'
 
-<html-element-template></html-element-template>
+  customElements.define('custom-html-element', CustomHTMLElement)
+</script>
+
+<custom-html-element></custom-html-element>

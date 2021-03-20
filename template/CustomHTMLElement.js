@@ -13,7 +13,7 @@ const template = createTemplate(`
   </template>
 `)
 
-class HTMLElementTemplate extends HTMLElement {
+export class CustomHTMLElement extends HTMLElement {
   constructor() {
     super()
     const templateContent = template.content
@@ -21,5 +21,3 @@ class HTMLElementTemplate extends HTMLElement {
     shadowRoot.appendChild(templateContent.cloneNode(true))
   }
 }
-
-customElements.define('html-element-template', HTMLElementTemplate)
