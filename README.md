@@ -2,7 +2,7 @@
 
 This work is devoted to God.
 
-Blueprint for how to write custom elements.
+Blueprint for how to write web components.
 
 ## Documentation
 
