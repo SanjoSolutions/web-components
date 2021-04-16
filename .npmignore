@@ -2,3 +2,4 @@ examples
 template
 .gitignore
 .nojekyll
+.idea
