@@ -1,0 +1,13 @@
+{
+  "name": "@sanjo/web-components",
+  "type": "module",
+  "description": "Helpers for web components.",
+  "license": "Unlicense",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
